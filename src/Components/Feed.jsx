@@ -5,7 +5,7 @@ const Feed = () => {
   return (
     <>
       <Box bgcolor="pink" flex={3} p={2}>
-        Feed
+        Feed1
       </Box>
     </>
   );
