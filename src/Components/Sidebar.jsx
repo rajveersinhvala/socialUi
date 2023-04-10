@@ -83,7 +83,6 @@ const Sidebar = () => {
               <ListItemIcon>
                 <SettingsBrightnessIcon /> <Switch />
               </ListItemIcon>
-              <ListItemText primary="Dark Mode" />
             </ListItemButton>
           </ListItem>
         </List>
