@@ -6,14 +6,13 @@ import {
   CardContent,
   CardHeader,
   CardMedia,
-  Collapse,
   IconButton,
   Typography,
 } from "@mui/material";
 import React from "react";
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import ShareIcon from "@mui/icons-material/Share";
+import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 const Feed = () => {
   return (
