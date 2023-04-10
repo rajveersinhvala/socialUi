@@ -81,8 +81,9 @@ const Sidebar = () => {
           <ListItem disablePadding>
             <ListItemButton component="a" href="#home">
               <ListItemIcon>
-                <SettingsBrightnessIcon /> <Switch />
+                <SettingsBrightnessIcon /> 
               </ListItemIcon>
+              <Switch />
             </ListItemButton>
           </ListItem>
         </List>
