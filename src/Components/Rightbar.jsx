@@ -53,7 +53,9 @@ const Rightbar = () => {
           <Typography variant="h6" fontWeight={300} mt={3} mb={3}>
             Latest Conversations
           </Typography>
-          <List sx={{ width: "100%", maxWidth: 360 }}>
+          <List
+            sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
+          >
             <ListItem alignItems="flex-start">
               <ListItemAvatar>
                 <Avatar
