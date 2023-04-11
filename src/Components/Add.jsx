@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
-import Textarea from "@mui/joy/Textarea";
+import TextField from "@mui/material/TextField";
 import React from "react";
 import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
 import { Image, PersonAddAlt, VideoCameraBack } from "@mui/icons-material";
@@ -20,7 +20,7 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 400,
-  height: 280,
+  height: 300,
   bgcolor: "background.paper",
   shadow: "md",
   boxShadow: 24,
@@ -64,20 +64,24 @@ const Add = () => {
               <Avatar src=""></Avatar>
               <Typography sx={{ ml: 2 }}> Lorem </Typography>
             </Box>
-            <Textarea
-              sx={{ mt: 2 }}
-              minRows={4}
+            <TextField
+              id="standard-multiline-static"
+              multiline
+              fullWidth
+              rows={4}
               placeholder="Type..."
-              variant="plain"
+              variant="standard"
+              sx={{ mt: 2 }}
             />
-            <hr />
-            <Stack direction="row" gap={1} mt={2} mb={30}>
+            <Button sx={{ mt: 2 }} variant="contained">
+              Send
+            </Button>
+            <Stack direction="row" gap={1} mt={4} mb={30}>
               <EmojiEmotionsIcon color="primary" sx={{ cursor: "pointer" }} />
               <Image color="primary" sx={{ cursor: "pointer" }} />
               <VideoCameraBack color="primary" sx={{ cursor: "pointer" }} />
               <PersonAddAlt color="primary" sx={{ cursor: "pointer" }} />
             </Stack>
-            <Button variant="contained">Send</Button>
           </Box>
         </Box>
       </Modal>
