@@ -50,7 +50,7 @@ const Add = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
+        <Box sx={style} bgcolor={"background.default"} color={"text.primary"}>
           <Box sx={{}}>
             <Typography variant="h6" color="gray" textAlign="center">
               Create Post
