@@ -43,7 +43,7 @@ const Navbar = () => {
             variant="h6"
             sx={{ display: { xs: "none", sm: "block" } }}
           >
-            VALA
+            VALA.
           </Typography>
           <PetsIcon sx={{ display: { xs: "block", sm: "none" } }} />
           <Search>
